@@ -6,7 +6,13 @@ namespace EmployeeWageProfile
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Employee Wages Portal!");
+            Random random = new Random();
+            int empCheck = random.Next(0, 2);
+
+            if (empCheck == 1)
+                Console.WriteLine("Employee is present");
+            else
+                Console.WriteLine("Employee is not present");
         }
     }
 }
