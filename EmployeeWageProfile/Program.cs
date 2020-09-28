@@ -9,7 +9,7 @@ namespace EmployeeWageProfile
             Random random = new Random();
             int empCheck = random.Next(0, 2);
 
-            if (empCheck == IS_FULL_TIME)
+            if (empCheck == 1)
                 Console.WriteLine("Employee is present");
             else
                 Console.WriteLine("Employee is not present");
